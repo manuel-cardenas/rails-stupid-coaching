@@ -1,0 +1,12 @@
+
+<div class="container m-4">
+
+  <h1 class="text-center m-4">Stupid Coaching 😪</h1>
+
+  <div class="m-2 text-center">
+    <form action="/answer" data-turbo="false" method="get">
+      <input type="text" name="questions" value="<%= params[:questions] %>" placeholder="Write some question">
+      <input type="submit" value="Ask!">
+    </form>
+  </div>
+</div>
